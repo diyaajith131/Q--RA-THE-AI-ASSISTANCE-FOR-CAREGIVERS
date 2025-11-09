@@ -1,0 +1,33 @@
+Create "Q-ra", the AI Caregiver Copilot Web Application (simulated AI via advanced local data 
+processing) . Focus Tagline: Amplify Care: Build the best care plan and connection, not just track it.
+ Branding/UI: Use the provided image/style as the logo. Watermark app with "WhackHack".
+ Features (1-5 remain same): Profiles, Task Planner, Note Analyzer, Emergency Network, Vitals Co
+Pilot.
+ Key Features (6-8):
+ 6. Live Consultation Hub: Doctor + AI Co-Pilot Session.
+ 7. AI Chatbot (Assistance for healthcare):
+ * Role: AI First-Aid & Pre-Consultation Assistant. Must be accurate and safe.
+ * Strict Rules: DO NOT diagnose, prescribe, or use "diagnosis". Use trusted medical sources only.
+ * Response Structure (Mandatory):
+ * Safety Warning (Vary Phrasing): Start with: "I am not a doctor. Seek immediate medical help for 
+severe/emergency symptoms".
+ * Potential Condition Info: General info on 1-3 common conditions based on symptoms. State 
+clearly: "This is for information only".
+ * Home Care Steps: Bulleted, actionable first-aid. Use bold verbs.
+ * Pre-Doctor Prep: List things to monitor and document (e.g., symptom log, medications).
+ * Closing: End with professional reminder/low-stakes follow-up.
+ * Style: Simple language, headings, bullets. Avoid repeating exact phrases in safety warning.
+ 8. Digital Companion Match (Paid Online Service):
+ * Goal: Match patient with a suitable paid companion for social interaction.
+ * Profile Form: Define companion preferences: Interest Matching (e.g., Reading, Music, Pets), 
+Communication Style (e.g., Talkative, Calm), Language Preference, Preferred Gender (with ethical 
+note).
+ * Simulated Match: Generate 3-5 "Suggested Companions" based on preferences. Store dummy 
+objects in localStorage (Name, Photo, Bio, Match Score %).
+ * Display: Simple card view showing details/Match Score.
+ * Booking Sim.: "Request Session" button initiates a modal. Display dummy hourly rate (e.g., 
+$25/hour). Button click stores a "Pending Session" object in localStorage.
+ * Safety Note: Display static disclaimer/blockquote: "> Note on Safety: All companion services are for 
+non-medical, social interaction only. Companions are vetted for background/ID (simulated check). In 
+case of emergency or distress, please use the Emergency Network."
+ * UI: Clean, prioritize Profile, clearly separate Match Results/Safety Note
